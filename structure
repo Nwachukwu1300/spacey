@@ -1,0 +1,42 @@
+mars-rover-mission/
+├── public/
+│   ├── index.html
+│   ├── assets/
+│   │   ├── avatars/           # Avatar animations/images
+│   │   ├── sounds/            # Audio files for the lesson
+│   │   └── backgrounds/       # Background images for different lesson sections
+│
+├── src/
+│   ├── components/
+│   │   ├── Avatar/            # Avatar component and animation logic
+│   │   ├── Webcam/            # Webcam integration component
+│   │   ├── LessonContent/     # Educational content components
+│   │   ├── Quiz/              # Quiz implementation
+│   │   ├── Feedback/          # Feedback system based on quiz results
+│   │   ├── ProgressTracker/   # Progress tracking and badges
+│   │   └── UI/                # Reusable UI components
+│   │
+│   ├── contexts/              # React context for state management
+│   │   ├── UserContext.js     # User data and progress
+│   │   └── LessonContext.js   # Lesson state management
+│   │
+│   ├── services/
+│   │   ├── firebase.js        # Firebase configuration
+│   │   └── speechServices.js  # Speech processing functions
+│   │
+│   ├── pages/
+│   │   ├── Welcome.js         # Welcome/intro page
+│   │   ├── Lesson.js          # Main lesson page
+│   │   ├── Quiz.js            # Quiz page
+│   │   └── Results.js         # Results and badge page
+│   │
+│   ├── utils/                 # Utility functions
+│   │   └── helpers.js
+│   │
+│   ├── App.js                 # Main app component
+│   ├── index.js               # Entry point
+│   └── styles/                # Global styles
+│
+├── firebase.json              # Firebase configuration
+├── package.json               # Dependencies and scripts
+└── README.md                  # Project documentation
